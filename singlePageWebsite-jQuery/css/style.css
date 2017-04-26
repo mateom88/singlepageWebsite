@@ -1,0 +1,220 @@
+body{
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+}
+
+#home{
+  padding-top: 70px;
+}
+
+.navbar-header {
+  float: none;
+}
+
+.navbar-toggle {
+  display: block;
+}
+
+.navbar-collapse.collapse {
+  display: none!important;
+}
+
+.navbar-nav {
+  float: none!important;
+  margin: 7.5px -15px;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-collapse.collapse.in { 
+  display: block!important;
+}
+   
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  font-family: 'Lato', sans-serif;
+  display: inline;
+}
+
+#paragraph p{
+	font-size: 2.2rem;
+	text-align: center;
+}
+
+.gallery img{
+  display: inline-block;
+  width: 33%;
+  height: 33%;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery-item {
+  margin: 2px;
+  border: 5px solid #FFF;
+}
+
+.gallery-item {  
+  border: 5px solid #FFF;
+}
+
+#weather{
+  text-align: center;
+}
+
+.jumbotron {
+  text-align: center;
+  align-items: center;
+  background: url("../images/clouds.jpg");
+  background-size: cover; 
+  color: #ffffff;
+  height: 300px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px #eff3f9;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+}
+
+#menu {
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #265eb7;
+  border: solid 2px #c3c3c3;
+}
+
+#menu p {
+  font-size: 1.8rem;
+}
+
+#titlemenu{
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.center-block {
+float: none !important
+}
+
+/*max width: 1200px*/
+@media screen and (max-width: 1200px){
+  .gallery img{
+    display: inline-block;
+    width: 49.5%;
+    height: 49.5%;
+    border-radius: 25px;
+    padding: 5px;
+  } 
+
+  #titlemenu{
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  }
+}
+
+/*max width: 768px */
+@media screen and (max-width: 768px){
+.gallery img{
+  display: inline-block;
+  width: 49.5%;
+  height: 49.5%;
+  border-radius: 25px;
+  padding: 5px;
+} 
+
+#titlemenu{
+  font-size: 19px;
+  text-align: center;
+  font-weight: bold;
+} 
+
+#menu p{
+  font-size: 15px;
+}
+    
+.jumbotron{
+  height: 80%;
+}
+
+.jumbotron h2 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#paragraph p{
+  font-size: 1.8rem;
+}
+
+}
+
+/*max width: 400px */
+@media screen and (max-width: 400px){
+  .gallery img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 8px;
+  }
+#menu{
+  background-color: red;
+}
+    
+.jumbotron{
+  height: 80%;
+}
+
+.jumbotron h2 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+   
+#paragraph p{
+  font-size: 1.8rem;
+}
+
+#titlemenu{
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#menu{
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #265eb7;
+  border: solid 2px #c3c3c3;
+  font-size: 17px;
+}
+
+}
+
